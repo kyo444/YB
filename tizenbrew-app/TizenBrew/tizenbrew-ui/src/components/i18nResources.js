@@ -105,9 +105,9 @@ const resources = {
   },
   cs: {
     translation: CzechLanguage
-  }
+  },
   ko: {
-    translation: KoreanLanguage
+    translation: Korean
   }
 };
 
