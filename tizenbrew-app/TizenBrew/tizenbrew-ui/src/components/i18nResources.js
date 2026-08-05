@@ -25,6 +25,7 @@ import SerbianCyrillicLanguage from '../lang/sr_SP.json';
 import SerbianLatinLanguage from '../lang/sr_RS.json';
 import KlingonLanguage from '../lang/tlh_KL.json';
 import CzechLanguage from '../lang/cs.json';
+import Korean from '../lang/ko.json';
 
 const resources = {
   da: {
