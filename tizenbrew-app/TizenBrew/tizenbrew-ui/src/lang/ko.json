@@ -1,0 +1,46 @@
+{
+  "service": {
+    "alreadyRunning": "서비스가 이미 실행 중입니다.",
+    "started": "서비스가 시작되었습니다.",
+    "connected": "서비스가 앱에 연결되었습니다."
+  },
+  "errors": {
+    "serviceDidntConnectYet": "서비스가 아직 앱에 연결되지 않아 모듈을 실행할 수 없습니다.",
+    "moduleNotFound": "오류: {{moduleName}} 모듈을 찾을 수 없습니다.",
+    "crashedServices": "오류: 다음 서비스가 충돌로 종료되었습니다: {{services}}.",
+    "debuggingNotEnabled": "오류: SDB 데몬에 연결할 수 없습니다. Host PC IP를 127.0.0.1로 변경하셨나요? 설정하셨다면 삼성 로고가 보일 때까지 전원 버튼을 길게 눌러 재부팅하세요.",
+    "noModules": "설치된 모듈이 없는 것 같습니다. [초록색] 버튼을 눌러 모듈 관리자에 접근하세요."
+  },
+  "moduleManager": {
+    "confirmDelete": "{{packageName}} 패키지를 삭제하시겠습니까?",
+    "addNPM": "NPM 모듈 추가",
+    "addNPMDesc": "주로 프로덕션 환경 및 일반 사용자용입니다.",
+    "addGH": "GitHub 모듈 추가",
+    "addGHDesc": "주로 개발 환경 및 개발자용입니다.",
+    "addModule": "모듈 추가",
+    "moduleName": "모듈 이름 ({{type}} 용):"
+  },
+  "settings": {
+    "autolaunch": "자동 실행 설정",
+    "autolaunchDesc": "TizenBrew를 실행할 때 자주 사용하는 모듈을 자동으로 시작합니다.",
+    "autolaunchService": "서비스 자동 실행 설정",
+    "autolaunchServiceDesc": "TizenBrew를 실행할 때 자주 사용하는 서비스를 자동으로 시작합니다.",
+    "useragent": "User-Agent 설정",
+    "useragentDesc": "TizenTube의 UI 수정 등 특정 효과를 위해 TizenBrew 모듈의 User-Agent를 변경합니다.",
+    "enableAutolaunchPrompt": "시작 시 {{packageName}} 패키지가 자동으로 실행되도록 설정하시겠습니까?",
+    "disableAutolaunchPrompt": "자동 실행을 비활성화하시겠습니까?",
+    "disableAutolaunch": "자동 실행 비활성화",
+    "noModules": "모듈을 찾을 수 없습니다.",
+    "default": "기본값",
+    "worksOnTizen": "(Tizen {{version}}+ 버전을 지원합니다)",
+    "uaBasedOnDevice": "기기 기반 User-Agent (일부 기능이 활성화될 수 있습니다)",
+    "setUaTo": "User-Agent를 {{userAgent}}(으)로 설정하시겠습니까?",
+    "uaSetRelaunch": "User-Agent가 설정되었습니다. 변경 사항을 적용하려면 앱을 다시 시작하세요.",
+    "uaNegativeEffects": "이 설정이 긍정적인 효과를 줄 수도 있지만, 부작용이 발생할 수도 있다는 점에 유의하세요.",
+    "language": "언어 설정",
+    "languageDesc": "앱의 언어를 변경합니다."
+  },
+  "__contributors": [
+    "kyo"
+  ]
+}
