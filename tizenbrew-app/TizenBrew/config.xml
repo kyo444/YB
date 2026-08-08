@@ -29,7 +29,7 @@
     <tizen:metadata key="http://samsung.com/tv/metadata/microphone.support" value="1"/>
     <tizen:metadata key="http://samsung.com/tv/metadata/microphone.area" value="open"/>
     
-    <name>YouTube</name>
+    <name>TizenBrewNextGeneration</name>
     <tizen:privilege name="http://tizen.org/privilege/internet"/>
     <tizen:privilege name="http://developer.samsung.com/privilege/network.public"/>
     <tizen:privilege name="http://tizen.org/privilege/tv.inputdevice"/>
